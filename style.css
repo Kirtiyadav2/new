@@ -1,0 +1,35 @@
+div{
+    background-color: blue;
+    width:200px;
+    height: 250px;
+    animation-name:selfish;
+    animation-duration: 0.50s;
+    animation-iteration-count: infinite;
+}
+@keyframes selfish{
+   0%{background-color:red;transform: rotate(0deg);}
+    30%{background-color: blue;transform: rotate(360deg)}
+    60%{background-color: red;transform: rotate(360deg)}
+    90%{background-color:blue;transform: rotate(360deg)}
+    120%{background-color:red;transform: rotate(360deg)}
+    150%{background-color: blue;transform: rotate(360deg)}
+    180%{background-color: RED;transform: rotate(360deg)}
+}
+<br>
+div{
+    background-color: blue;
+    width:200px;
+    height: 250px;
+    animation-name:selfish;
+    animation-duration: 0.50s;
+    animation-iteration-count: infinite;
+}
+@keyframes selfish{
+   0%{background-color:red;transform: rotate(0deg);}
+    30%{background-color: blue;transform: rotate(360deg)}
+    60%{background-color: red;transform: rotate(360deg)}
+    90%{background-color:blue;transform: rotate(360deg)}
+    120%{background-color:red;transform: rotate(360deg)}
+    150%{background-color: blue;transform: rotate(360deg)}
+    180%{background-color: RED;transform: rotate(360deg)}
+}
